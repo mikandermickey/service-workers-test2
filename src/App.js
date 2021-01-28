@@ -1,4 +1,4 @@
-import {Router, Link} from '@reach/router'
+import {Router} from '@reach/router'
 import Home from './components/Home';
 import Page from './components/Page';
 
