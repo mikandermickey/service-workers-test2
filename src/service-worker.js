@@ -72,5 +72,6 @@ self.addEventListener('message', (event) => {
 // Any other custom service worker logic can go here.
 
 if(self.IndexedDB){
-  console.log("indexedDB is indexed")
+    console.log('IndexedDB is supported');
 }
+
