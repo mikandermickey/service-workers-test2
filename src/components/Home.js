@@ -2,11 +2,13 @@ import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 import Demo from './Demo';
+import PWAPrompt from 'react-ios-pwa-prompt'
 
 const Home = () => {
     return ( 
          <div className="App">
          <Demo/>
+         <PWAPrompt />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
