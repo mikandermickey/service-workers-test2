@@ -8,7 +8,7 @@ const Home = () => {
     return ( 
          <div className="App">
          <Demo/>
-         <PWAPrompt />
+         <PWAPrompt promptOnVisit={1} timesToShow={3} copyClosePrompt="Close" permanentlyHideOnDismiss={false}/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
